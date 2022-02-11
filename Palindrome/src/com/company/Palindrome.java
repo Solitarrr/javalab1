@@ -6,7 +6,7 @@ public class Palindrome {
 	for (int i= 0; i<args.length; i++){
         String s = args[i];
         if(isPalindrome(s)){
-            System.out.print(s+" is palindrome!");
+            System.out.println(s+" is palindrome!");
         }
         else {
             System.out.println(s+" isn't palindrome");
