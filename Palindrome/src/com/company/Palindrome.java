@@ -5,10 +5,12 @@ public class Palindrome {
     public static void main(String[] args) {
 	for (int i= 0; i<args.length; i++){
         String s = args[i];
-        System.out.print(s+" is ");
-        if(!isPalindrome(s))
-            System.out.print(" not ");
-        System.out.print("a palindrome!");
+        if(isPalindrome(s)){
+            System.out.print(s+" is palindrome!");
+        }
+        else {
+            System.out.println(s+" isn't palindrome");
+        }
         }
     }
     //Метод, позволяющий полностью изменить символы в строке
